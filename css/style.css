@@ -118,6 +118,11 @@
     color: #44c454;
 }
 
+.logo {
+    height: 250px;
+    width: 250px;
+}
+
 @media (max-width: 991.98px) {
     .nav-bar {
         padding: 0;
