@@ -1,9 +1,25 @@
 /********** Template CSS **********/
 :root {
-    --primary: #1E60AA;
+    --primary: #3E5C82;
     --secondary: #FF4917;
     --light: #EDF1FC;
     --dark: #17224D;
+}
+
+.primary-color {
+    color: var(--primary);
+}
+
+.secundary-color {
+    color: var(--light)
+}
+
+.primary-background {
+    background-color: var(--primary);
+}
+
+.dark-background {
+    background-color: var(--dark);
 }
 
 .fw-medium {
