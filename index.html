@@ -68,7 +68,7 @@
                     <a href="#start" class="nav-item nav-link">Inicio</a>
                     <a href="#about" class="nav-item nav-link">Sobre</a>
                     <a href="#services" class="nav-item nav-link">Serviços</a>
-                    <a href="" class="nav-item nav-link">Fale conosco</a>
+                    <a href="#contact" class="nav-item nav-link">Fale conosco</a>
                 </div>
                 <div class="mt-4 mt-lg-0 me-lg-n4 py-3 px-4 primary-background d-flex align-items-center">
                     <div class="d-flex flex-shrink-0 align-items-center justify-content-centers" style="width: 45px; height: 45px;">
@@ -252,31 +252,39 @@
     <!-- Testimonial End -->
 
     <!-- Contact Form Start -->
-    <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+    <div id="contact" class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container">
             <h1 class="text-center">Fale conosco</h1>
-            <form>
-                <div class="mb-3">
-                    <label for="nameInput" class="form-label">Nome</label>
-                    <input type="text" class="form-control" id="nameInput" aria-describedby="nameHelp">
-                  </div>
-                <div class="mb-3">
-                    <label for="lastNameInput" class="form-label">Sobrenome</label>
-                    <input type="text" class="form-control" id="lastNameInput" aria-describedby="lastNameHelp">
-                  </div>
-                <div class="mb-3">
-                  <label for="exampleInputEmail1" class="form-label">Email</label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <form action="https://formspree.io/f/mldedezn" method="POST" class="d-flex flex-column">
+                <div class="d-lg-flex">
+                    <div class="w-100 me-lg-2 mb-3">
+                        <label for="nameInput" class="form-label">Nome</label>
+                        <input required name="nameInput" type="text" class="form-control" id="nameInput" aria-describedby="nameHelp">
+                      </div>
+                    <div class="w-100 ms-lg-2 mb-3">
+                        <label for="lastNameInput" class="form-label">Sobrenome</label>
+                        <input required name="lastNameInput" type="text" class="form-control" id="lastNameInput" aria-describedby="lastNameHelp">
+                      </div>
+                </div>
+                <div class="d-lg-flex">
+                    <div class="w-100 me-lg-2 mb-3">
+                        <label for="emailInput" class="form-label">Email</label>
+                        <input required class="form-control" name="emailInput" type="email" id="emailInput" aria-describedby="emailHelp">
+                      </div>
+                      <div class="w-100 ms-lg-2 mb-3">
+                          <label for="telInput" class="form-label">Celular (WhatsApp)</label>
+                          <input name="telInput" type="tel" class="form-control" id="telInput" aria-describedby="telHelp">
+                        </div>
                 </div>
                 <div class="mb-3">
                     <label for="textareaInput" class="form-label">Mensagem</label>
-                    <textarea class="form-control" id="textareaInput" rows="3"></textarea>
+                    <textarea required name="textareaInput" class="form-control" id="textareaInput" rows="3"></textarea>
                   </div>
                 <div class="mb-3 form-check">
-                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                  <input name="exampleCheck1" type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Autorizo contato pelo WhatsApp</label>
                 </div>
-                <button type="submit" class="btn primary-background text-white">Enviar</button>
+                <button type="submit" class="btn primary-background text-white mx-auto">Enviar</button>
               </form>
         </div>
     </div>
