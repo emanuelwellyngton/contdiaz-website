@@ -179,6 +179,12 @@
     }
 }
 
+@media (max-width: 575px) {
+    .banner .logo {
+        display: none;
+    }
+}
+
 
 /*** Facts ***/
 .fact {
