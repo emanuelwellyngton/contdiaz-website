@@ -18,6 +18,10 @@
     background-color: var(--primary);
 }
 
+.secondary-background {
+    background-color: var(--secondary);
+}
+
 .dark-background {
     background-color: var(--dark);
 }
