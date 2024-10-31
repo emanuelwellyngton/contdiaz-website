@@ -113,8 +113,11 @@
     margin-left: 8px;
 }
 
+.menu-list {
+    margin-left: auto;
+}
+
 .navbar-light .navbar-nav .nav-link {
-    margin-right: 30px;
     padding: 25px 0;
     color: var(--primary);
     font-size: 15px;
@@ -307,6 +310,10 @@
 .fact {
     background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url(../img/bg.jpg) center center no-repeat;
     background-size: cover;
+}
+
+.about-image {
+    border-radius: 10px;
 }
 
 
