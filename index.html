@@ -54,13 +54,15 @@
     <!-- Spinner End -->
 
     <!-- Navbar Start -->
-    <div style="height: 5vw;">
+    <div style="height: 4vw;">
         <div class="container-fluid nav-bar bg-light shadow position-fixed">
-            <nav class="navbar navbar-expand-lg navbar-light bg-white p-3 py-lg-0 px-lg-4">
-                <a href="#" class="d-flex flex-column navbar-brand d-flex p-0">
-                    <h1 class="primary-color m-0 fs-2 lh-1">NOVAIS & DIAS</h1>
-                    <p class="primary-color fs-6 lh-0 primary-color mb-0">CONTABILIDADE & CONSULTORIA</p>
-                </a>
+            <nav class="nav-menu navbar ali navbar-expand-lg navbar-light bg-white py-lg-0 px-lg-4">
+                <div class="d-flex gap-2 align-items-center mx-auto">
+                    <img src="./img/logo.png" alt="Logo da Novais e Dias" style="height: 50px;">
+                    <a href="#" class="d-flex flex-column navbar-brand d-flex p-0">
+                        <h1 class="primary-color m-0 fs-2 lh-1">NOVAIS & DIAS</h1>
+                    </a>
+                </div>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                     <span class="fa fa-bars"></span>
                 </button>
@@ -86,8 +88,9 @@
                 <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(0, 0, 0, .4);">
                     <div class="container">
                         <div class="row justify-content-start">
-                            <div class="col-10 col-lg-8">
+                            <div class="col-10 col-lg-8 al">
                                 <h1 class="fs-1 fs-sm-6 fw-medium text-white mb-4 pb-2 mb-sm-0">Simplifique sua Contabilidade,<br> Potencialize seu Crescimento</h1>
+                                <p class="text-white" style="font-weight: 600; text-align: justify;">Na Novais e Dias Contabilidade e Consultoria, acreditamos que uma contabilidade descomplicada é fundamental para o sucesso do seu negócio.<br><br>Ao simplificarmos os processos contábeis, você ganha tempo e energia para focar no que realmente importa: o crescimento da sua empresa.</p>
                             </div>
                         </div>
                     </div>
@@ -99,7 +102,7 @@
                     <div class="container">
                         <div class="row justify-content-start">
                             <div class="col-10 col-lg-8">
-                                <h1 class="fs-1 fs-sm-6 fw-medium text-white mb-4 pb-2 mb-sm-0">Gestão Contábil Eficiente para Impulsionar o Crescimento da Sua Empresa</h1>
+                                <h1 class="fs-1 fs-sm-6 fw-medium text-white mb-4 pb-2 mb-sm-0">Gestão Contábil Eficiente para Impulsionar o Crescimento do Seu Negócio</h1>
                             </div>
                         </div>
                     </div>
@@ -114,10 +117,14 @@
     <div class="container-xxl py-5" id="about">
         <div class="container">
             <div class="row g-5">
+                <div class="about-row m-0 p-0 d-flex">
+                    <div class="about-text m-0 p-0 mx-auto">
+                        <h6 class="text-secondary text-uppercase text-center">Sobre Nós</h6>
+                        <h3 class="mb-4" style="text-align: center;">Nossa equipe é composta por profissionais experientes e comprometidos em entregar soluções contábeis com excelência e dedicação</h1>
+                    </div>
+                </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <h6 class="text-secondary text-uppercase">Sobre Nós</h6>
-                    <h1 class="mb-4">Especialistas em Contabilidade, Parceiros no Sucesso</h1>
-                    <p class="mb-4">A Novais e Dias Contabilidade e Consultoria, é uma empresa de contabilidade moderna e inovadora, fundada por Andreza Novais e Alexandre Dias, ambos contadores com vasta experiência nas áreas de contabilidade fiscal, legalização, departamento pessoal e financeira. Desde sua abertura em Novembro de 2022, a empresa tem como missão oferecer soluções contábeis personalizadas para as empresas, ajudando-as a alcançar seus objetivos financeiros com eficiência e transparência.</p>
+                    <p class="mb-4" style="text-align: justify;">A Novais e Dias Contabilidade e Consultoria é uma empresa moderna e inovadora, fundada por Andreza Novais e Alexandre Dias, contadores com vasta experiência nas áreas de contabilidade fiscal, legalização, departamento pessoal e financeira. Desde sua abertura em novembro de 2022, a empresa tem se destacado pelo compromisso em oferecer soluções contábeis personalizadas.<br><br>Contamos com uma equipe de colaboradores dedicados e qualificados, que compartilham a mesma visão de eficiência e transparência. Juntos, trabalhamos para ajudar as empresas a alcançarem seus objetivos financeiros, proporcionando um atendimento próximo e consultivo, sempre adaptado às necessidades de cada cliente.</p>
                     <p class="fw-medium text-primary"><i class="fa fa-check text-success me-3"></i>Acompanhamento próximo e dedicado a cada cliente.</p>
                     <p class="fw-medium text-primary"><i class="fa fa-check text-success me-3"></i>Utilização de ferramentas digitais para otimizar processos e facilitar a comunicação.</p>
                     <p class="fw-medium text-primary"><i class="fa fa-check text-success me-3"></i>Compromisso com práticas contábeis justas e responsáveis.</p>
@@ -131,7 +138,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-lg-6 pt-4" style="min-height: 500px;">
+                <div class="col-lg-6" style="min-height: 500px;">
                     <div class="position-relative h-100 wow fadeInUp" data-wow-delay="0.5s">
                         <img class="position-absolute img-fluid w-100 h-100 p-0 about-image" src="img/successful-business-team-expressing-unity.jpg" style="object-fit: cover; padding: 0 0 50px 100px;" alt="">                    </div>
                 </div>
@@ -148,56 +155,66 @@
             <div class="row g-4 d-flex justify-content-around">
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="card">
-                        <div class="card-header primary-background d-flex">
-                            <h5 class="card-title secundary-color">Contabilidade Geral</h5>
+                        <div class="card-header primary-background d-flex p-1">
+                            <h5 class="card-title secundary-color m-auto">Contabilidade Geral</h5>
                         </div>
-                        <div class="card-body">
-                            <object data="./img/service-1.svg" type="image/svg+xml"></object>
+                        <div class="card-body d-flex flex-column gap-2 p-2">
+                            <div class="image-container m-0 p-0 d-flex align-items-center">
+                                <img class="service-image p-2" src="./img/service-1.png"></img>
+                            </div>
                           <p class="card-text">Registro e controle de transações financeiras.</p>
                         </div>
                       </div>
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="card">
-                        <div class="card-header primary-background d-flex">
-                            <h5 class="card-title secundary-color">Legalização</h5>
+                        <div class="card-header primary-background d-flex p-1">
+                            <h5 class="card-title secundary-color m-auto">Legalização</h5>
                         </div>
-                        <div class="card-body">
-                            <object data="./img/service-2.svg" type="image/svg+xml"></object>
+                        <div class="card-body d-flex flex-column gap-2 p-2">
+                            <div class="image-container m-0 p-0 d-flex align-items-center">
+                                <img class="service-image p-2" src="./img/service-2.png"></img>
+                            </div>
                           <p class="card-text">Abertura, alterações e encerramento de empresas.</p>
                         </div>
                       </div>
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="card">
-                        <div class="card-header primary-background d-flex">
-                            <h5 class="card-title secundary-color">Consultoria Fiscal</h5>
+                        <div class="card-header primary-background d-flex p-1">
+                            <h5 class="card-title secundary-color m-auto">Consultoria Fiscal</h5>
                         </div>
-                        <div class="card-body">
-                            <object data="./img/service-3.svg" type="image/svg+xml"></object>
+                        <div class="card-body d-flex flex-column gap-2 p-2">
+                            <div class="image-container m-0 p-0 d-flex align-items-center">
+                                <img class="service-image p-2" src="./img/service-3.png"></img>
+                            </div>
                           <p class="card-text">Planejamento tributário e gestão de obrigações fiscais.</p>
                         </div>
                       </div>
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="card">
-                        <div class="card-header primary-background d-flex">
-                            <h5 class="card-title secundary-color">Departamento Pessoal</h5>
+                        <div class="card-header p-1 primary-background d-flex">
+                            <h5 class="card-title secundary-color m-auto">Departamento Pessoal</h5>
                         </div>
-                        <div class="card-body">
-                            <object data="./img/service-4.svg" type="image/svg+xml"></object>
-                          <p class="card-text">Gestão da Folha de Pagamento.</p>
+                        <div class="card-body d-flex flex-column gap-2 p-2">
+                            <div class="image-container m-0 p-0 d-flex align-items-center">
+                                <img class="service-image p-2" src="./img/service-4.png"></img>
+                            </div>
+                          <p class="card-text">Gestão da folha de pagamento, benefícios e conformidade trabalhista.</p>
                         </div>
                       </div>
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="card">
-                        <div class="card-header primary-background d-flex">
-                            <h5 class="card-title secundary-color">Consultoria Financeira</h5>
+                        <div class="card-header p-1 primary-background d-flex">
+                            <h5 class="card-title secundary-color m-auto text-center">Consultoria Financeira</h5>
                         </div>
-                        <div class="card-body">
-                            <object data="./img/service-5.svg" type="image/svg+xml"></object>
-                          <p class="card-text">Orientação estratégica para gestão de recursos e investimentos.</p>
+                        <div class="card-body d-flex flex-column gap-2 p-2">
+                            <div class="image-container m-0 p-0 d-flex align-items-center">
+                                <img class="service-image p-2" src="./img/service-5.png"></img>
+                            </div>
+                          <p class="card-text">Orientação estratégica para gestão financeira.</p>
                         </div>
                       </div>
                 </div>
@@ -275,14 +292,14 @@
 
     <!-- Footer Start -->
     <div class="container-fluid primary-background text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
-        <div class="container d-flex flex-column py-5 d-flex">
+        <div class="container d-flex flex-column py-5 d-flex text-center">
             <div class="row g-5 justify-content-between">
                 <div class="col-lg-4 col-md-6">
                     <h4 class="text-light mb-4">Endereço</h4>
-                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Av. Aimara, 316 - Parque PIrajussara, Embu 06815-000</p>
-                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+55 11 97476-8962</p>
-                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>contato@contnovaisedias.com.br</p>
-                    <div class="d-flex pt-2">
+                    <div class="mb-2 d-flex align-items-center"><p class="m-auto">Av. Aimara, 316 - Parque PIrajussara, Embu 06815-000</p></div>
+                    <div class="mb-2 d-flex align-items-center"><p class="m-auto">+55 11 97476-8962</p></div>
+                    <div class="m-0 p-0 mb-2 d-flex align-items-center"><p class="m-auto">contato@contnovaisedias.com.br</p></div>
+                    <div class="d-flex pt-2 justify-content-around">
                         <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-instagram"></i></a>
                         <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook"></i></a>
                         <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
@@ -293,8 +310,8 @@
                     <h6 class="text-light">Segunda à Sexta-Feira:</h6>
                     <p class="mb-4">09h00 - 18h00</p>
                 </div>
-                <div class="col-lg-3 col-md-6">
-                    <img class="logo" src="./img/logo.png" alt="">
+                <div class="logo-spot col-lg-3 col-md-6">
+                    <img class="logo" style="height: 100px; width: auto;" src="./img/logo.png" alt="">
                 </div>
             </div>
             <div class="row mt-5">
