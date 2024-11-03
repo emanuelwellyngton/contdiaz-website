@@ -163,11 +163,19 @@
     .menu-list {
         padding-left: 1rem;
     }
+
+    .brand {
+        margin: auto;
+    }
 }
 
 @media (min-width: 992px) {
     .nav-menu {
         height: 55px;
+    }
+
+    .brand {
+        margin-left: 350px;
     }
 
     .navbar .nav-item .dropdown-menu {
@@ -187,7 +195,6 @@
         opacity: 1;
     }
 }
-
 
 /*** Banner ***/
 @media (max-width: 770px) {
